@@ -1,0 +1,5 @@
+#!/bin/bash
+
+npm install
+
+op inject -i secrets.env -o .env
